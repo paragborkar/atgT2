@@ -37,7 +37,7 @@ const Home = () => {
   }, []);
   return (
     <>
-      <header className="bg-white text-dark py-4" style={{ height: "10vh" }}>
+      <header className="bg-dark text-white py-4" style={{ height: "10vh" }}>
         <div className="container">
           <h1 className="h3">UserApp</h1>
         </div>
