@@ -51,7 +51,7 @@ const Home = () => {
             className="d-flex align-items-center mx-auto h-100"
             style={{ paddingBottom: "10rem" }}
           >
-            <p>Loading...</p>
+            <p className="text-white">Loading...</p>
           </div>
         ) : !error ? (
           <div className="users-container col-8 col-xl-6 mx-auto my-4 d-flex flex-column  gap-4  overflow-y-scroll">
